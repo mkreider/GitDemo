@@ -20,7 +20,8 @@ void init(void)
 	PORTB	= 0x00;
 	PORTC	= 0x00;	//no pullup for PORTC
 	PORTD	= 0x00;
-	
+
+	//initialise ADC
 	adc_init();
 	
 }
