@@ -7,6 +7,7 @@ void adc_init(void) {
 	ADMUX   = (1<<REFS1) | (1<<REFS0);    // interne Referenzspannung nutzen
 	ADCSRA  = (1<<ADPS1) | (1<<ADPS0);    // Frequenzvorteiler
 	ADCSRA |= (1<<ADEN);                  // ADC aktivieren
+						// useless comment
 
 	/* nach Aktivieren des ADC wird ein "Dummy-Readout" empfohlen, man liest
 	 also einen Wert und verwirft diesen, um den ADC "warmlaufen zu lassen" */
