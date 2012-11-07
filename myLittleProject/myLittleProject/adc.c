@@ -43,6 +43,7 @@ uint16_t adc_read( uint8_t channel )
 	return ADCW;                    // ADC auslesen und zurückgeben
 }
 
+//Burak was here
 
 /* kontinuierliche ADC Messung starten */
 void adc_start ( uint8_t channel )
