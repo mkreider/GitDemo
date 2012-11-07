@@ -1,5 +1,8 @@
 #include <avr/io.h>
 
+
+//ssh push
+
 void adc_init(void) {
  
 	uint16_t result;
