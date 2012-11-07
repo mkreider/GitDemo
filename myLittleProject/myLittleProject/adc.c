@@ -44,6 +44,7 @@ uint16_t adc_read( uint8_t channel )
 }
 
 //Burak was here
+//Nadja was here
 
 /* kontinuierliche ADC Messung starten */
 void adc_start ( uint8_t channel )
